@@ -31,8 +31,9 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.8.0)
-      jekyll (~> 3.3)
+    jekyll-gist (1.4.0)
+      octokit (~> 4.2)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -50,9 +51,10 @@ GEM
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
+    octokit (4.6.2)
+      sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    poole (0.1.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -62,6 +64,9 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    sawyer (0.8.1)
+      addressable (>= 2.3.5, < 2.6)
+      faraday (~> 0.8, < 1.0)
     travis (1.8.6)
       backports
       faraday (~> 0.9)
@@ -80,8 +85,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-feed (~> 0.6)
-  poole
+  jekyll-gist
+  jekyll-paginate
   travis
   tzinfo-data
 
