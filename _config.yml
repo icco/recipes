@@ -6,4 +6,5 @@ url: "https://food.natwelch.com"
 
 exclude: [README.md, Rakefile, .travis.yml, vendor]
 paginate: 10
-permalink: /:title
+permalink: /:title/
+incremental: false
