@@ -11,4 +11,4 @@ group :jekyll_plugins do
   gem "jekyll-gist"
 end
 
-gem "travis"
+gem "travis", ">= 1.8.8"
