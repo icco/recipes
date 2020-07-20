@@ -4,7 +4,7 @@ ruby "2.4.0"
 
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem "jekyll", ">= 4.0.0"
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
