@@ -1,4 +1,14 @@
 languageCode = "en-us"
-title = "Nat's Recipes"
+title = "Recipes"
 baseURL = "https://food.natwelch.com/"
 theme = "paper"
+log = true
+
+[build]
+  noJSConfigInAssets = false
+  useResourceCacheWhen = "fallback"
+  writeStats = true
+
+[params]
+  AuthorName = "Nat Welch"
+  GitHubUser = "icco"
