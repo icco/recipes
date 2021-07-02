@@ -2,6 +2,7 @@
 
 layout: post
 title: "Tamagoyaki"
+date: "2017-05-14"
 
 ---
 
