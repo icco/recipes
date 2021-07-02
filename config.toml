@@ -4,11 +4,13 @@ baseURL = "https://food.natwelch.com/"
 theme = "paper"
 log = true
 
+[author]
+  name = "Nat Welch"
+
 [build]
   noJSConfigInAssets = false
   useResourceCacheWhen = "fallback"
   writeStats = true
 
 [params]
-  AuthorName = "Nat Welch"
-  GitHubUser = "icco"
+  description = "Nat's recipes and other food things."
