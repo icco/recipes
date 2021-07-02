@@ -2,6 +2,7 @@
 
 layout: post
 title: "Tamago Kake Gohan"
+date: "2017-05-14"
 
 ---
 
