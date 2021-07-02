@@ -1,4 +1,5 @@
 FROM klakegg/hugo:onbuild AS hugo
+ENV HUGO_ENV production
 
 FROM nginx:alpine
 
