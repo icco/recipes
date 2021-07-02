@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "Nat's Recipes"
+baseURL = "https://food.natwelch.com/"
+theme = "paper"
