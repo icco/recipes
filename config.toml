@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Recipes"
 baseURL = "https://food.natwelch.com/"
-theme = "paper"
+theme = "github.com/nanxiaobei/hugo-paper"
 log = true
 
 [author]
