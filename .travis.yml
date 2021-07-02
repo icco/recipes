@@ -1,16 +1,5 @@
-language: ruby
-rvm:
-- 2.4.0
+language: bash
+services:
+- docker
 script:
-- bundle exec jekyll build
-deploy:
-  provider: onesie
-  edge:
-    source: icco/dpl
-    branch: onesie
-  skip_cleanup: true
-  local-dir: _site
-  key: 1193dc06-d1be-461d-9025-97c4cc50319b
-  domain: food.natwelch.com
-  secret:
-    secure: avU/jjsN4TarNSvvH3wTbrQ0w6tRZBIJmPY6Tq4Rg7kzLhcxKzcrAUuihu3MB7OgGaZdQ8SSbeuJ9ARui5L5bktCuFcp/ddtYOJWdvHbZJdUydP6pj92SY0iPQpC/zIlxxS+Bb4p8MZiBzlU2DhdXzcIAGozdLmuC61BzGrLqmLQtBsTifBefvmR/adCg6f+QRfAn7crIUreOnnopl2VgDQqjTAvBpSYpZuDwxVlyODU+ELq+/PcKDp+515dpvuKJ/2HbuT1TPgEzhGZKwjJEG0yrI5NRfR5RoJnUiLCQ0JdAQfMrS4/aSLe2ZPt+P1MnOdNo+LU0Hb27w+Pz0QQe+jhSgapyvNmt8hfIWcUpJ53uJhlWfnawljFZh55ggcnaZyteG0rU7zrqwVwLymLmfgThsUovSDHCulFSeU2NC6WqVcOu+x6bWGqcRAp0NbBJQ2875BsqZM2ixpfU4ATZftnPa6Q6JNz5cDyNx9tWbizG5Lp1Qwo9+RXUYXdBXmSyBROtOmZ2oOe8Qx2WZNKenfNhzI+U/CClMOUcW2cr3wfxQNYSn4evkoxKN8aSxq0vjQs8AO9gxolLMamz5WcI3WXP1+kz1O6WOabsYjrdkQZ5pGXpDHhmp3MmLQJCjjxh/Z1rILYl97AKZIfx13S0lErtVR2X4SGxXQ8vZRuZE4=
+- docker run --rm -i -v $(pwd):/src klakegg/hugo
