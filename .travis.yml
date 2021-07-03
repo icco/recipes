@@ -2,4 +2,4 @@ language: bash
 services:
 - docker
 script:
-- docker run --rm -i -v $(pwd):/src klakegg/hugo
+- docker build --no-cache .
